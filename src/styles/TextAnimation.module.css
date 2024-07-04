@@ -1,0 +1,40 @@
+@keyframes gradientShift {
+    0% {
+      background-position: center center;
+    }
+    25% {
+      background-position: top right;
+    }
+    50% {
+      background-position: bottom right;
+    }
+    75% {
+      background-position: bottom left;
+    }
+    100% {
+      background-position: top left;
+    }
+  }
+  
+  .box_textAnimation {
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+    background: radial-gradient(circle, #e53939, #000000);
+    background-size: 200% 200%;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: gradientShift 20s infinite;
+  }
+  
+  .box_textAnimation p {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+  }
+  
