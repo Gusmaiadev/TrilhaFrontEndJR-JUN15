@@ -4,7 +4,7 @@
     background-color: #000;
     display: flex;
     justify-content: center;
-    position: relative; 
+    position: fixed; 
 }
 
 .container {
@@ -39,7 +39,6 @@
 }
 
 .menuSidebar {
-    position: absolute;
     top: 10vh; 
     bottom: 0;
     right: 0;
@@ -49,6 +48,8 @@
     align-items: center;
     display: flex;
     color: #ffffff;
+    position: fixed;
+    z-index: 999;
 }
 
 ul, li{
