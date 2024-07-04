@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+}
+
+.container {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+}
+
+.box_logo {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box_menu {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.menuSidebar {
+    position: absolute;
+    top: 10vh; 
+    bottom: 0;
+    right: 0;
+    background-color: #e53939;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+}
+
+ul, li{
+    list-style: none;
+}
+
