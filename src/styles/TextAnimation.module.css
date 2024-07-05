@@ -12,7 +12,7 @@
       background-position: bottom left;
     }
     100% {
-      background-position: top left;
+      background-position: center center;
     }
   }
   
@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    animation: gradientShift 20s infinite;
+    animation: gradientShift 1s infinite;
   }
   
   .box_textAnimation p {
