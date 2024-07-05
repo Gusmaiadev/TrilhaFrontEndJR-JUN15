@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 .container_whiteBox{
@@ -13,11 +14,17 @@
     display: flex;
 }
 
+.aos-animate .box_text, .box_animation {
+    opacity: 1; 
+  }
+
 .box_text, .box_animation{
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: center;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
 }
 
 .box_text{

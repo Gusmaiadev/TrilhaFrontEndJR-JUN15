@@ -5,6 +5,11 @@
     justify-content: center;
     align-items: center;
     background-color: #000;
+    overflow-x: hidden;
+}
+
+.aos-animate .box_text, .box_img {
+  opacity: 1; 
 }
 
 .container_blackBox{
@@ -18,7 +23,10 @@
     flex: 1;
     justify-content: center;
     align-items: center;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
 }
+
 
 .box_text{
     flex-direction:column ;
