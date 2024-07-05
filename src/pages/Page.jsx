@@ -9,8 +9,8 @@ import WhiteBox from '../components/WhiteBox';
 import Carousel from '../components/Carousel'
 import Music from '../assets/music.png'
 import Astronaute from '../components/Astronaute';
-import styles from '../styles/Page.module.css'
 import Footer from '../components/Footer';
+import Data from '../data/data';
 
 
 function Page() {
@@ -21,34 +21,36 @@ function Page() {
         });
     }, []);
 
+    const { titles, texts } = Data;
+
     return (
         <main>
             <Header/>
             <TextAnimation/>
             <BlackBox 
-                title='Sobre Mim' 
+                title={titles.title_one} 
                 image={Me} 
                 alt='Gustavo Maia' 
-                text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut voluptatibus dolores veniam! Repellendus error nulla aliquid sapiente omnis nemo accusantium voluptatibus assumenda ut. Minima iusto ut quae quaerat placeat? Dignissimos.'
+                text={texts.text_one}
                 aosAnimation="fade-left"
             />
             <WhiteBox 
-                title='Tecnologias' 
+                title={titles.title_two} 
                 animation={<Carousel/>} 
-                text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut voluptatibus dolores veniam! Repellendus error nulla aliquid sapiente omnis nemo accusantium voluptatibus assumenda ut. Minima iusto ut quae quaerat placeat? Dignissimos.'
+                text={texts.text_two}
                 aosAnimation="fade-right"
             />
             <BlackBox 
-                title='Gostos pessoais' 
+                title={titles.title_three} 
                 image={Music} 
                 alt='Gustavo Maia' 
-                text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut voluptatibus dolores veniam! Repellendus error nulla aliquid sapiente omnis nemo accusantium voluptatibus assumenda ut. Minima iusto ut quae quaerat placeat? Dignissimos.'
+                text={texts.text_three}
                 aosAnimation="fade-left"
             />
             <WhiteBox 
-                title='Motivações' 
+                title={titles.title_four} 
                 animation={<Astronaute/>} 
-                text='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut voluptatibus dolores veniam! Repellendus error nulla aliquid sapiente omnis nemo accusantium voluptatibus assumenda ut. Minima iusto ut quae quaerat placeat? Dignissimos.'
+                text={texts.text_four}
                 aosAnimation="fade-right"
             />
             <Footer/>
