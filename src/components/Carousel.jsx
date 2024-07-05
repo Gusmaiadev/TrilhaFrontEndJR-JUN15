@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Carousel.css';
 
+// images
+import ReactIcon from '../assets/react.png';
+import SassIcon from '../assets/sass.png';
+import FigmaIcon from '../assets/figma.png';
+import OracleIcon from '../assets/oraclesql.png';
+import PythonIcon from '../assets/python.png';
+import NodeIcon from '../assets/node.png';
+
 function Carousel() {
   const [currdeg, setCurrdeg] = useState(0);
 
@@ -15,12 +23,12 @@ function Carousel() {
   return (
     <div className="container">
       <div className="carousel" style={{ transform: `rotateY(${currdeg}deg)` }}>
-        <div className="item a">A</div>
-        <div className="item b">B</div>
-        <div className="item c">C</div>
-        <div className="item d">D</div>
-        <div className="item e">E</div>
-        <div className="item f">F</div>
+        <div className="item a"><img src={ReactIcon} alt="" /></div>
+        <div className="item b"><img src={SassIcon} alt="" /></div>
+        <div className="item c"><img src={FigmaIcon} alt="" /></div>
+        <div className="item d"><img src={OracleIcon} alt="" /></div>
+        <div className="item e"><img src={PythonIcon} alt="" /></div>
+        <div className="item f"><img src={NodeIcon} alt="" /></div>
       </div>
     </div>
   );
