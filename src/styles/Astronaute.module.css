@@ -19,3 +19,27 @@
         
     }
 }
+
+
+@media (max-width:600px){
+    .img{
+    width: 500px;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    animation: floatUp 2s infinite alternate ease-in-out;
+    filter:drop-shadow(4px 4px 10px #000) ;
+    
+}
+}
+@media (max-width:360px){
+    .img{
+    width: 400px;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    animation: floatUp 2s infinite alternate ease-in-out;
+    filter:drop-shadow(4px 4px 10px #000) ;
+    
+}
+}

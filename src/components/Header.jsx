@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 import styles from '../styles/Header.module.css';
 
 // Imagens
@@ -33,9 +34,31 @@ function Header() {
                 <div className={styles.boxMenu}>
                     <div className={styles.menuSidebar}>
                         <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
+                            <li>
+                                <Link to="section1" smooth={true} duration={500} onClick={toggleMenu}>
+                                    Sobre mim
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="section2" smooth={true} duration={500} onClick={toggleMenu}>
+                                    Tecnologias
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="section3" smooth={true} duration={500} onClick={toggleMenu}>
+                                    Gostos pessoais
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="section4" smooth={true} duration={500} onClick={toggleMenu}>
+                                    Motivações
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="section5" smooth={true} duration={500} onClick={toggleMenu}>
+                                    Contato
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
 import styles from '../styles/BlackBox.module.css';
 
 
-function BlackBox({ text, image, desc, title, aosAnimation }) {
+function BlackBox({ text, image, desc, title, aosAnimation, id }) {
     return (
-        <section className={styles.section_blackBox}>
+        <section className={styles.section_blackBox} id={id}>
             <div className={styles.container_blackBox} >
                 <div className={styles.box_text}  data-aos={aosAnimation}>
                     <h1>{title}</h1>

@@ -6,6 +6,7 @@
     align-items: center;
     background-color: #ffffff;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .container_whiteBox{
@@ -53,3 +54,73 @@
     font-style: normal;
     font-size: 3rem;
 }
+
+
+@media (max-width: 1270px){
+    .container_whiteBox{
+      display: flex;
+      flex-direction: column;
+    }
+    .box_text{
+      justify-content: flex-start;
+    }
+  }
+
+@media (max-height:800px){
+    .section_whiteBox{
+        width:100%;
+        height: 160vh;
+    }
+    .container_whiteBox{
+      height: 140vh;
+    }
+    .box_text h1{
+        margin-top: 30px;
+    }
+  }
+@media (max-height:1000px){
+    .box_text h1{
+        margin-top: 50px;
+    }
+  }
+  
+    @media (max-width: 1020px){
+      .box_text p{
+        font-size: 1rem;
+      }
+    }
+  
+   
+  
+    @media (max-width: 600px){
+      .box_text p{
+        font-size: 0.8rem;
+      }
+  
+      .box_text h1{
+        font-size: 2rem;
+    }
+     
+    }
+  
+    @media (max-width: 430px) and (max-height:2000px){
+      .box_text p{
+        font-size: 0.8rem;
+      }
+  
+      .box_text h1{
+       
+        font-size: 1.5rem;
+    
+    }
+        .section_whiteBox{
+        height: 140vh;
+    }
+    .box_text{
+        flex: 2;
+    }
+     
+    }
+  
+  
+    

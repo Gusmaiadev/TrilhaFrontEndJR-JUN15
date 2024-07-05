@@ -30,3 +30,12 @@
     font-style: normal;
     font-size: 3rem;
 }
+
+@media (max-width:500px){
+    .box_title h1{
+        font-size: 2rem;
+    }
+    .footer{
+        text-align: center;
+    }
+}

@@ -33,12 +33,14 @@ function Page() {
                 alt='Gustavo Maia' 
                 text={texts.text_one}
                 aosAnimation="fade-left"
+                id = 'section1'
             />
             <WhiteBox 
                 title={titles.title_two} 
                 animation={<Carousel/>} 
                 text={texts.text_two}
                 aosAnimation="fade-right"
+                id='section2'
             />
             <BlackBox 
                 title={titles.title_three} 
@@ -46,14 +48,16 @@ function Page() {
                 alt='Gustavo Maia' 
                 text={texts.text_three}
                 aosAnimation="fade-left"
+                id='section3'
             />
             <WhiteBox 
                 title={titles.title_four} 
                 animation={<Astronaute/>} 
                 text={texts.text_four}
                 aosAnimation="fade-right"
+                id='section4'
             />
-            <Footer/>
+            <Footer id='section5'/>
         </main>
     );
 }

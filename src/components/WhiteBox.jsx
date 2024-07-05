@@ -1,8 +1,8 @@
 import styles from '../styles/WhiteBox.module.css'
 
-function WhiteBox({text, animation, title, aosAnimation}){
+function WhiteBox({text, animation, title, aosAnimation, id}){
     return(
-        <section className={styles.section_whiteBox}>
+        <section className={styles.section_whiteBox} id={id}>
             <div className={styles.container_whiteBox}>
                     <div className={styles.box_animation} data-aos={aosAnimation}>
                             <div className={styles.space_animation}>

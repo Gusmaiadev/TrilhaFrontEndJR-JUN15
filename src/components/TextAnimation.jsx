@@ -28,8 +28,12 @@ function TextAnimation() {
 
     return (
         <section className={styles.box_textAnimation}>
-            <p>Olá, eu sou  <span>{displayText}</span></p>
-           
+            <div className={styles.textOne}>
+                <p>Olá, eu sou </p>
+            </div>
+            <div className={styles.textTwo}>
+                 <p>{displayText}</p>
+            </div>
         </section>
     );
 }
