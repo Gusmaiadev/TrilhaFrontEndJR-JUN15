@@ -6,10 +6,7 @@ Bem-vindo ao pimeira task do **Código Certo**, um projeto construído com Vite 
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
 - [Rodando o Projeto](#rodando-o-projeto)
-- [Criando Build para Produção](#criando-build-para-produção)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+
 
 ## Introdução
 
