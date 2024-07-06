@@ -23,12 +23,12 @@ function Carousel() {
   return (
     <div className="container">
       <div className="carousel" style={{ transform: `rotateY(${currdeg}deg)` }}>
-        <div className="item a"><img src={ReactIcon} alt="" /></div>
-        <div className="item b"><img src={SassIcon} alt="" /></div>
-        <div className="item c"><img src={FigmaIcon} alt="" /></div>
-        <div className="item d"><img src={OracleIcon} alt="" /></div>
-        <div className="item e"><img src={PythonIcon} alt="" /></div>
-        <div className="item f"><img src={NodeIcon} alt="" /></div>
+        <div className="item a"><img src={ReactIcon} alt="ReactJs" /></div>
+        <div className="item b"><img src={SassIcon} alt="Sass" /></div>
+        <div className="item c"><img src={FigmaIcon} alt="Figma" /></div>
+        <div className="item d"><img src={OracleIcon} alt="OraleSQL" /></div>
+        <div className="item e"><img src={PythonIcon} alt="Python" /></div>
+        <div className="item f"><img src={NodeIcon} alt="NodeJs" /></div>
       </div>
     </div>
   );
