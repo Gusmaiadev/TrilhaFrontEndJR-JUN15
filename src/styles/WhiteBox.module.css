@@ -1,6 +1,6 @@
 .section_whiteBox{
     width:100%;
-    height: 50rem;
+    height: 55rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
 
 .container_whiteBox{
     width: 90%;
-    height: 50rem;
+    height: 55rem;
     
     display: flex;
 }
@@ -68,12 +68,6 @@
     .box_animation{
       align-items: flex-end;
     }
-    .container_whiteBox{
-      height: 50rem;
-    }
-    .section_whiteBox{
-      height: 50rem;
-    }
     .box_text{
         flex: 2;
     } 
@@ -84,7 +78,6 @@
         font-size: 1rem;
       }
     }
-  
   
   
     @media (max-width: 600px){
@@ -109,7 +102,7 @@
     
     }
         .section_whiteBox{
-        height: 120vh;
+        height: 60rem;
     }
      
     }
