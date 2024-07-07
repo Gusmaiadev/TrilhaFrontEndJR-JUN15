@@ -109,15 +109,6 @@
   }
 
   @media (max-width: 740px){
-    .img_wrapper {
-      width: 250px;
-      height: 250px;
-    }
-    
-    .img_wrapper::before {
-      width: 250px;
-      height: 250px;
-    }
 
     .box_text p{
       font-size: 1rem;
@@ -133,12 +124,18 @@
     .img_wrapper {
       width: 300px;
       height: 300px;
+      margin-top: 30px;
     }
     
     .img_wrapper::before {
       width: 300px;
       height: 300px;
+      margin-top: 30px;
     }
+    .img{
+      margin-top: 30px;
+    }
+    
 
   }
 
@@ -180,7 +177,7 @@
         height: 55rem;
     }
     .box_img{
-      align-items: center;
+      align-items: flex-start;
     }
    
   }
